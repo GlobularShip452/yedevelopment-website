@@ -11,6 +11,7 @@ import {
   NavLinks,
   NavBtn,
   NavBtnLink,
+  NavBtnLinkSec
 } from "./NavbarElements";
 import { animateScroll as scroll } from "react-scroll";
 
@@ -93,6 +94,10 @@ const Navbar = ({ toggle }) => {
                   Bootcamp
                 </NavLinks>
               </NavItem>
+              <NavBtn>
+                <NavBtnLinkSec to="/contact">Contact</NavBtnLinkSec>
+              </NavBtn>
+
             </NavMenu>
             <NavBtn>
               <NavBtnLink to="/signin">Log In</NavBtnLink>
