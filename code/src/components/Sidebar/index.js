@@ -8,6 +8,7 @@ import {
   SidebarLink,
   SideBtnWrap,
   SidebarRoute,
+  SidebarLinkSec
 } from "./SidebarElements";
 
 const Sidebar = ({ toggle, isOpen }) => {
@@ -31,6 +32,9 @@ const Sidebar = ({ toggle, isOpen }) => {
             <SidebarLink to="signup" onClick={toggle}>
               Bootcamp
             </SidebarLink>
+            <SidebarLinkSec to="/contact" onClick={toggle}>
+              Contact
+            </SidebarLinkSec>
           </SidebarMenu>
           <SideBtnWrap>
             <SidebarRoute to="/signin">Log In</SidebarRoute>

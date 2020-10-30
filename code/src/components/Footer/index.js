@@ -24,11 +24,7 @@ const Footer = () => {
           <FooterLinksContainer>
             <FooterLinksWrapper>
               <FooterLinkItems>
-                <FooterLinkTitle>Over Ons</FooterLinkTitle>
-                <FooterLink to="/signin">How it works</FooterLink>
-                <FooterLink to="/signin">Testimonials</FooterLink>
-                <FooterLink to="/signin">Careers</FooterLink>
-                <FooterLink to="/signin">Investors</FooterLink>
+                <FooterLinkTitle>Belangrijke Informatie</FooterLinkTitle>
                 <FooterLink to="/terms-of-services">
                   Servicevoorwaarden
                 </FooterLink>
@@ -44,20 +40,13 @@ const Footer = () => {
             </FooterLinksWrapper>
             <FooterLinksWrapper>
               <FooterLinkItems>
-                <FooterLinkTitle>Over Ons</FooterLinkTitle>
-                <FooterLink to="/signin">How it works</FooterLink>
-                <FooterLink to="/signin">Testimonials</FooterLink>
-                <FooterLink to="/signin">Careers</FooterLink>
-                <FooterLink to="/signin">Investors</FooterLink>
-                <FooterLink to="/signin">Terms of Services</FooterLink>
+                <FooterLinkTitle>Recente Projecten</FooterLinkTitle>
+                <FooterLink to="/signin">HealthCare</FooterLink>
               </FooterLinkItems>
               <FooterLinkItems>
-                <FooterLinkTitle>Over Ons</FooterLinkTitle>
-                <FooterLink to="/signin">How it works</FooterLink>
-                <FooterLink to="/signin">Testimonials</FooterLink>
-                <FooterLink to="/signin">Careers</FooterLink>
-                <FooterLink to="/signin">Investors</FooterLink>
-                <FooterLink to="/signin">Terms of Services</FooterLink>
+                <FooterLinkTitle>Links</FooterLinkTitle>
+                <FooterLink to="/signin">Inloggen</FooterLink>
+                <FooterLink target="_blank" href="https://covid-tracker-nl.web.app/">Covid Tracker</FooterLink>
               </FooterLinkItems>
             </FooterLinksWrapper>
           </FooterLinksContainer>
